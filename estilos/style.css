@@ -40,3 +40,22 @@ main{
     width: 267px;
     height: 471px;
 }
+
+#redesSociais img{
+    width: 55px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 2px 6px #00000085;
+    box-sizing: border-box;
+}
+
+#redesSociais{
+    text-align: right;
+}
+
+#redesSociais img:hover{
+    border: 2px solid white;
+    transform: translate(-4px, -4px);
+    box-shadow: 6px 5px 12px #00000085;
+    transition: transform 0.2s;
+}
